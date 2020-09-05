@@ -39,34 +39,34 @@
 \end{titlepage}
 
 \tableofcontents
-
+\vspace{0.5cm}
 \section{La memoria del computador.}
-La memoria del computador hace referencia al dispositivo encargado del almacenamiento temporal de informacion que está activa en el momento, esto quiere decir que una vez se ha acabado de trabajar con dicha información la memoria procedera con nueva informacion activa del momento. Es preciso resaltar que la terminologia correcta para este componente se denomida Memoria de acceso aleatorio o tambien conocida por sus siglas como RAM. 
-\begin{itemize}
-\item 
-\begin{itemize}
-\item 
-\begin{enumerate}
-\item 
-\end{enumerate}
-\end{itemize}
-\end{itemize}
+La memoria del computador hace referencia al dispositivo encargado del almacenamiento temporal de informacion que está activa en el momento, esto quiere decir que una vez se ha acabado de trabajar con dicha información la memoria procedera con nueva informacion activa del momento. Es preciso resaltar que la terminologia correcta para este componente se denomida Memoria de acceso aleatorio o tambien conocida por sus siglas como RAM.
+
  \vspace{0.5cm}
  
-\citeonline{knuth-fa}
+
 \section{Tipos de memoria.} \label{contenido}
 Ciertamente existen diferentes tipos de memoria que desempeñan importantes labores a la hora de almacenar, organizar y priorizar la información; si bien algunas pueden cumplir labores parecidos, es muy importante dar a conocer cual es la función específica de cada una de estas dentro del sistema de almacenaje computacional.Por tanto, en orden jerarquico las memorias son las siguientes:
-
+\begin{itemize}
 \vspace{15PT}
-1. \textbf{Memoria caché :} 
+\textbf{Memoria caché :}
+
 Esta es la memoria encargada de almacenar la información que es más habitualmente utilizada. los procesos que requieren mayor trabajo y desempeño son asignados a la memoria caché puesto que esta es la más eficiente a la hora de trabajar con la información, cabe aclarar que la recopilación de dicha información es sacada directamente desde la memoria RAM, sin embargo, la memoria caché se encuentra compuesta por niveles en donde similarmente a la relación entre la memoria RAM y la memoria caché, la información es nuevamente priorizada debido a que la memoria caché está compuesta de ciertos niveles en donde la información que se prioriza es la cual  trabaja a la par del procesador y que será asignada al primer nivel(L1) de la memoria, puesto que es información rápida y ligera, así mismo la información que es menos utilizada se le es asignada al nivel 2(L2) de la memoria caché, y de esta manera sucesivamente con los niveles que la componen.
 
-\cite{dirac}
-
+\vspace{15PT}
+\newline
+\textbf{Memoria RAM}: Esta memoria es la encargada de almacenar la infromación
+\vspace{15PT}
+\newline
+\textbf{Memoria virtual}:Esta memoria es basada directamente a la relación entre el disco duro y la memoria RAM en tanto a que la información que maneja en esta no es prioritaria, por lo tanto una fracción del disco duro se encarga de administrar dicha información de baja relevancia,por lo tanto es seguro asegurar que la información almacenada en  esta memoria se maneja de forma más lenta en comparación a la memoria RAM, sin embargo, esta información no es desechada, en su lugar esta es dejada a una lado en espera a ser reactivada cuando esta sea precisa, de este modo podemos decir que la memoria virtual se encarga principalmente de las tareas que se dejan en segundo plano mientras que la memoria RAM es la que lleva a cabo información de primer plano.
+\vspace{15PT}
+\newline
+\textbf{Disco duro:} es el encargado de almacenar datos a largo plazo, los cuales no se eliminan al apagar la computadora, sin embargo, este presenta un gran problema en cuanto al manejo de la información se refiere, esto debido a su arquitectura que complica la navegación por su información al ser muy lenta en comparación a los anteriores dispositivos de memoria mencionados. Aún con su gran desventaja es necesario conocer el hecho de que, el disco duro es netamente el dispositivo sobre el cual los demás periféricos y dispositivos trabajan, esto contribuye a idea de que la verdadera información real solo existe en el disco duro tanto en el momento en que la computadora está encendida como apagada; lo anterior es correcto asumiendo que la información que se maneja en las diferentes memorias mencionadas anteriormente tan solo con copias de la información original sobre las que se trabaja y esta solo existe mientras el computador está llevando a cabo tareas o procedimientos.
 \begin{lstlisting}
 
 \end{lstlisting}
-
+\end{intermize}
 A continuación se presenta el logo de C++ Figura (\ref{fig:cpplogo})
 
 \begin{figure}[h]
@@ -78,9 +78,12 @@ A continuación se presenta el logo de C++ Figura (\ref{fig:cpplogo})
 
 En la sección de teoremas (\ref{contenido})
 
-\section{Como se gestiona la memoria en un computador..} \label{conclulsion}
+\section{Como se gestiona la memoria en un computador} \label{conclulsion}
 
 \bibliographystyle{IEEEtran}
 \bibliography{references}
+\section{¿Qué hace que una memoria sea más rápida que otra? ¿Por qué esto es importante?} \label{conclulsion}
 
+\bibliographystyle{IEEEtran}
+\bibliography{references}
 \end{document}
