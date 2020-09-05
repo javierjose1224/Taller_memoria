@@ -8,7 +8,7 @@
 
 
 \begin{document}
-
+\large
 \begin{titlepage}
     \begin{center}
         \vspace*{1cm}
@@ -47,16 +47,17 @@ La memoria del computador hace referencia al dispositivo encargado del almacenam
  
 
 \section{Tipos de memoria.} \label{contenido}
-Ciertamente existen diferentes tipos de memoria que desempeñan importantes labores a la hora de almacenar, organizar y priorizar la información; si bien algunas pueden cumplir labores parecidos, es muy importante dar a conocer cual es la función específica de cada una de estas dentro del sistema de almacenaje computacional.Por tanto, en orden jerarquico las memorias son las siguientes:
+En tanto a lo que el almacenaje de la computadora se refiere, se han ido desarrollando distintos tipos de memoria con crecientes niveles de optimización y con propósitos específicos que desempeñan importantes labores a la hora de almacenar, organizar y priorizar la información; si bien algunas pueden cumplir labores parecidos, es muy importante dar a conocer cual es la función específica de cada una de estas dentro del sistema de almacenaje computacional.Por tanto, en orden jerarquico de más veloz a menos veloz, las memorias son las siguientes:
 \begin{itemize}
 \vspace{15PT}
 \textbf{Memoria caché :}
 
-Esta es la memoria encargada de almacenar la información que es más habitualmente utilizada. los procesos que requieren mayor trabajo y desempeño son asignados a la memoria caché puesto que esta es la más eficiente a la hora de trabajar con la información, cabe aclarar que la recopilación de dicha información es sacada directamente desde la memoria RAM, sin embargo, la memoria caché se encuentra compuesta por niveles en donde similarmente a la relación entre la memoria RAM y la memoria caché, la información es nuevamente priorizada debido a que la memoria caché está compuesta de ciertos niveles en donde la información que se prioriza es la cual  trabaja a la par del procesador y que será asignada al primer nivel(L1) de la memoria, puesto que es información rápida y ligera, así mismo la información que es menos utilizada se le es asignada al nivel 2(L2) de la memoria caché, y de esta manera sucesivamente con los niveles que la componen.
+Esta es la memoria encargada de almacenar la información que es más habitualmente utilizada. los procesos que requieren mayor trabajo y desempeño son asignados a la memoria caché puesto que esta es la más eficiente a la hora de trabajar con la información, cabe aclarar que la recopilación de dicha información es sacada directamente desde la memoria RAM, sin embargo, la memoria caché se encuentra compuesta por niveles en donde similarmente a la relación entre la memoria RAM y la memoria caché, la información es nuevamente priorizada debido a que la memoria caché está compuesta de ciertos niveles en donde la información que se prioriza es la cual  trabaja a la par del procesador y que será asignada al primer nivel(L1) de la memoria, puesto que es información rápida y ligera, así mismo la información que es menos utilizada se le es asignada al nivel 2(L2) de la memoria caché, y de esta misma manera al último nivel denominado nivel 3 (L3).
 
 \vspace{15PT}
 \newline
 \textbf{Memoria RAM}: Esta memoria es la encargada de almacenar la infromación
+\cite{redusers}
 \vspace{15PT}
 \newline
 \textbf{Memoria virtual}:Esta memoria es basada directamente a la relación entre el disco duro y la memoria RAM en tanto a que la información que maneja en esta no es prioritaria, por lo tanto una fracción del disco duro se encarga de administrar dicha información de baja relevancia,por lo tanto es seguro asegurar que la información almacenada en  esta memoria se maneja de forma más lenta en comparación a la memoria RAM, sin embargo, esta información no es desechada, en su lugar esta es dejada a una lado en espera a ser reactivada cuando esta sea precisa, de este modo podemos decir que la memoria virtual se encarga principalmente de las tareas que se dejan en segundo plano mientras que la memoria RAM es la que lleva a cabo información de primer plano.
@@ -81,8 +82,9 @@ En la sección de teoremas (\ref{contenido})
 \section{Como se gestiona la memoria en un computador} \label{conclulsion}
 
 \bibliographystyle{IEEEtran}
-\bibliography{references}
-\section{¿Qué hace que una memoria sea más rápida que otra? ¿Por qué esto es importante?} \label{conclulsion}
+\section{¿Qué hace que una memoria sea más rápida que otra? ¿Por qué esto es importante?}
+Varios factores juegan un papel importante en cuanto al desempeño de las memorias se refiere, como pueden ser, la arquitectura que las compone, la capacidad de almacenaje de estas y el tipo de información con el que trabajan, un ejemplo claro de esto es que podemos darnos cuenta a medida que avanzamos en la jerarquía de memorias, a medida que el almacenamiento de estas aumenta, tanto su desempeño como velocidad se ve reducido. No obstante, lo que realmente define que una memoria sea más veloz que otra es en gran parte al último aspecto mencionado, es decir, el tipo de información con el que cada una de estas trabaja, manipula y prioriza, Aunque a simple vista este sistema pareciera dar problemas debido a que la capacidad que cada memoria varía en gran cantidad entre ellas, la ingeniería computacional se las ha apañado para optimizar el trabajo que la computadora debe realizar para con el manejo de la información, esto es posible por medio de la clasificación de la información que cada memoria debe de manipular, por ejemplo, una característica clara que notamos al momento de descender en la jerarquía de las memorias es, la memoria que se encuentra en el tope jerárquico es la que maneja la información previamente filtrada por las que la suceden, por tanto, esta información al momento de ser recibida por la memoria anteriormente mencionada, llega con cierto grado de filtración y por ende, es información que ha sido priorizada para ser manipulada por pequeñas cantidades de almacenaje, esta astuta idea nace debido a que la experiencia del usuario requiere de respuestas inmediatas de la computadora como pueden ser las tareas ejecutadas en primer plano o la información que más repetidamente se utiliza, dichas tareas son llevadas a cabo por las memorias más veloces del conjunto de memorias, por lo que en cierto modo, se crea una ilusión de rapidez computacional, en donde la información que se ejecuta en segundo plano si bien no está siendo trabajada, puede ser potencialmente utilizada por el usuario, seguido a esto tenemos información de más baja prioridad que si bien se está ejecutando en segundo plano, es información que ejecuta a otra de mucha más prioridad, como lo es el sistema operativo.
+\label{conclulsion}
 
 \bibliographystyle{IEEEtran}
 \bibliography{references}
