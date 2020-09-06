@@ -53,14 +53,31 @@ En tanto a lo que el almacenaje de la computadora se refiere, se han ido desarro
 \textbf{Memoria caché :}
 
 Esta es la memoria encargada de almacenar la información que es más habitualmente utilizada. los procesos que requieren mayor trabajo y desempeño son asignados a la memoria caché puesto que esta es la más eficiente a la hora de trabajar con la información, cabe aclarar que la recopilación de dicha información es sacada directamente desde la memoria RAM, sin embargo, la memoria caché se encuentra compuesta por niveles en donde similarmente a la relación entre la memoria RAM y la memoria caché, la información es nuevamente priorizada debido a que la memoria caché está compuesta de ciertos niveles en donde la información que se prioriza es la cual  trabaja a la par del procesador y que será asignada al primer nivel(L1) de la memoria, puesto que es información rápida y ligera, así mismo la información que es menos utilizada se le es asignada al nivel 2(L2) de la memoria caché, y de esta misma manera al último nivel denominado nivel 3 (L3).
-
+\newline
+\begin{figure}[h]
+\includegraphics[width=4cm]{caché.jpg}
+\centering
+\caption{Memoria caché}
+\label{fig:RAM}
+\end{figure}
 \vspace{15PT}
 \newline
 \textbf{Memoria RAM}: La memoria RAM (el significado de sus siglas es Memoria de Almacenamiento Aleatorio), esto quiere decir que la información almacenada en esta es muy fácil de administrar, en donde, la información que se precisa es asignada una celda para cada bit de información, a diferencia de la memoria de acceso serial (SAM) en donde la información se encuentra en un solo punto especifico de la misma, por lo tanto una vez se recorra la información contenida en esta, se deberá de pasar por cada uno de los puntos anteriores a la información que se desea obtener, ralentizando notablemente e proceso de manejo de la información, sin ella la computadora se vería imposibilitada para funcionar correctamente. Esta memoria es considerada como la más importante dentro del conjunto de memorias; se emplea para almacenar temporalmente las instrucciones o los datos. Este tipo de memoria informática también se le conoce como memoria de escritura y lectura, porque pueden leerse o escribirse los datos en ella, este proceso es realizado mediante copias de información inicial suministrada por el disco duro, debido a esto, popularmente se dice que la memoria RAM solo trabaja mientras la computadora se encuentra encendida, una vez la computadora es apagada la información contenida en la RAM procede a desecharse. Esta memoria se encarga principalmente desde algunos procesos temporales, tales como las modificaciones en los archivos, hasta todas aquellas instrucciones que hacen posible que se ejecuten las aplicaciones que tenemos instaladas en nuestro ordenador.
+
 \newline
+\textit{Referencias acerca Memoria RAM}
 \cite{conociendo}
-\newline
 \cite{dos}
+(\ref{fig:RAM})
+\begin{figure}[h]
+\includegraphics[width=4cm]{RAM1.jpg}
+\centering
+\caption{Memoria RAM}
+\label{fig:RAM}
+\end{figure}
+
+\newline
+
 \vspace{15PT}
 \newline
 \textbf{Memoria virtual}:Esta memoria es basada directamente a la relación entre el disco duro y la memoria RAM en tanto a que la información que maneja en esta no es prioritaria, por lo tanto una fracción del disco duro se encarga de administrar dicha información de baja relevancia,por lo tanto es seguro asegurar que la información almacenada en  esta memoria se maneja de forma más lenta en comparación a la memoria RAM, sin embargo, esta información no es desechada, en su lugar esta es dejada a una lado en espera a ser reactivada cuando esta sea precisa, de este modo podemos decir que la memoria virtual se encarga principalmente de las tareas que se dejan en segundo plano mientras que la memoria RAM es la que lleva a cabo información de primer plano.
@@ -68,16 +85,15 @@ Esta es la memoria encargada de almacenar la información que es más habitualme
 \newline
 \textbf{Disco duro:} es el encargado de almacenar datos a largo plazo, los cuales no se eliminan al apagar la computadora, sin embargo, este presenta un gran problema en cuanto al manejo de la información se refiere, esto debido a su arquitectura que complica la navegación por su información al ser muy lenta en comparación a los anteriores dispositivos de memoria mencionados. Aún con su gran desventaja es necesario conocer el hecho de que, el disco duro es netamente el dispositivo sobre el cual los demás periféricos y dispositivos trabajan, esto contribuye a idea de que la verdadera información real solo existe en el disco duro tanto en el momento en que la computadora está encendida como apagada; lo anterior es correcto asumiendo que la información que se maneja en las diferentes memorias mencionadas anteriormente tan solo con copias de la información original sobre las que se trabaja y esta solo existe mientras el computador está llevando a cabo tareas o procedimientos.
 \begin{lstlisting}
-
 \end{lstlisting}
 \end{intermize}
-A continuación se presenta el logo de C++ Figura (\ref{fig:cpplogo})
+(\ref{fig:disco duro})
 
 \begin{figure}[h]
-\includegraphics[width=4cm]{cpplogo.png}
+\includegraphics[width=4cm]{disco duro.jpg}
 \centering
-\caption{Logo de C++}
-\label{fig:cpplogo}
+\caption{Disco duro}
+\label{fig:disco duro}
 \end{figure}
 
 En la sección de teoremas (\ref{contenido})
