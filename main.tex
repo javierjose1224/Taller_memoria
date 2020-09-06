@@ -56,8 +56,11 @@ Esta es la memoria encargada de almacenar la información que es más habitualme
 
 \vspace{15PT}
 \newline
-\textbf{Memoria RAM}: Esta memoria es la encargada de almacenar la infromación
-\cite{redusers}
+\textbf{Memoria RAM}: La memoria RAM (el significado de sus siglas es Memoria de Almacenamiento Aleatorio), esto quiere decir que la información almacenada en esta es muy fácil de administrar, en donde, la información que se precisa es asignada una celda para cada bit de información, a diferencia de la memoria de acceso serial (SAM) en donde la información se encuentra en un solo punto especifico de la misma, por lo tanto una vez se recorra la información contenida en esta, se deberá de pasar por cada uno de los puntos anteriores a la información que se desea obtener, ralentizando notablemente e proceso de manejo de la información, sin ella la computadora se vería imposibilitada para funcionar correctamente. Esta memoria es considerada como la más importante dentro del conjunto de memorias; se emplea para almacenar temporalmente las instrucciones o los datos. Este tipo de memoria informática también se le conoce como memoria de escritura y lectura, porque pueden leerse o escribirse los datos en ella, este proceso es realizado mediante copias de información inicial suministrada por el disco duro, debido a esto, popularmente se dice que la memoria RAM solo trabaja mientras la computadora se encuentra encendida, una vez la computadora es apagada la información contenida en la RAM procede a desecharse. Esta memoria se encarga principalmente desde algunos procesos temporales, tales como las modificaciones en los archivos, hasta todas aquellas instrucciones que hacen posible que se ejecuten las aplicaciones que tenemos instaladas en nuestro ordenador.
+\newline
+\cite{conociendo}
+\newline
+\cite{dos}
 \vspace{15PT}
 \newline
 \textbf{Memoria virtual}:Esta memoria es basada directamente a la relación entre el disco duro y la memoria RAM en tanto a que la información que maneja en esta no es prioritaria, por lo tanto una fracción del disco duro se encarga de administrar dicha información de baja relevancia,por lo tanto es seguro asegurar que la información almacenada en  esta memoria se maneja de forma más lenta en comparación a la memoria RAM, sin embargo, esta información no es desechada, en su lugar esta es dejada a una lado en espera a ser reactivada cuando esta sea precisa, de este modo podemos decir que la memoria virtual se encarga principalmente de las tareas que se dejan en segundo plano mientras que la memoria RAM es la que lleva a cabo información de primer plano.
@@ -79,13 +82,15 @@ A continuación se presenta el logo de C++ Figura (\ref{fig:cpplogo})
 
 En la sección de teoremas (\ref{contenido})
 
-\section{Como se gestiona la memoria en un computador} \label{conclulsion}
+\section{Como se gestiona la memoria en un computador}
+Esta se gestiona clasificando, priorizando y filtrando la información que cada memoria (incluyendo sus componentes) debe de manejar, es decir, existe información que requiere de mucho almacenamiento y procesamiento que no puede ser llevada a cabo por cualquiera de las memomiar, puesto que las capacidades no  
+\label{conclulsion}
 
 \bibliographystyle{IEEEtran}
 \section{¿Qué hace que una memoria sea más rápida que otra? ¿Por qué esto es importante?}
 Varios factores juegan un papel importante en cuanto al desempeño de las memorias se refiere, como pueden ser, la arquitectura que las compone, la capacidad de almacenaje de estas y el tipo de información con el que trabajan, un ejemplo claro de esto es que podemos darnos cuenta a medida que avanzamos en la jerarquía de memorias, a medida que el almacenamiento de estas aumenta, tanto su desempeño como velocidad se ve reducido. No obstante, lo que realmente define que una memoria sea más veloz que otra es en gran parte al último aspecto mencionado, es decir, el tipo de información con el que cada una de estas trabaja, manipula y prioriza, Aunque a simple vista este sistema pareciera dar problemas debido a que la capacidad que cada memoria varía en gran cantidad entre ellas, la ingeniería computacional se las ha apañado para optimizar el trabajo que la computadora debe realizar para con el manejo de la información, esto es posible por medio de la clasificación de la información que cada memoria debe de manipular, por ejemplo, una característica clara que notamos al momento de descender en la jerarquía de las memorias es, la memoria que se encuentra en el tope jerárquico es la que maneja la información previamente filtrada por las que la suceden, por tanto, esta información al momento de ser recibida por la memoria anteriormente mencionada, llega con cierto grado de filtración y por ende, es información que ha sido priorizada para ser manipulada por pequeñas cantidades de almacenaje, esta astuta idea nace debido a que la experiencia del usuario requiere de respuestas inmediatas de la computadora como pueden ser las tareas ejecutadas en primer plano o la información que más repetidamente se utiliza, dichas tareas son llevadas a cabo por las memorias más veloces del conjunto de memorias, por lo que en cierto modo, se crea una ilusión de rapidez computacional, en donde la información que se ejecuta en segundo plano si bien no está siendo trabajada, puede ser potencialmente utilizada por el usuario, seguido a esto tenemos información de más baja prioridad que si bien se está ejecutando en segundo plano, es información que ejecuta a otra de mucha más prioridad, como lo es el sistema operativo.
 \label{conclulsion}
 
-\bibliographystyle{IEEEtran}
+\bibliographystyle{Outran}
 \bibliography{references}
 \end{document}
